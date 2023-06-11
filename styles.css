@@ -74,6 +74,7 @@
     border-radius: 4px;
     padding: 5px 24px;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .action-button {
@@ -185,4 +186,13 @@
 
 .call-sub {
     filter: contrast(80%);
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
