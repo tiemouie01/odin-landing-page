@@ -22,9 +22,11 @@
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 .link {
+    flex: 1;
     margin: 16px;
 }
 
@@ -185,6 +187,7 @@
 }
 
 .call-sub {
+    flex: 1;
     filter: contrast(80%);
 }
 
