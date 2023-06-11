@@ -72,8 +72,12 @@
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 4px;
-    padding: 6px 24px;
+    padding: 5px 24px;
     font-weight: bold;
+}
+
+.action-button {
+    border: 2px solid #F9FAF8;
 }
 
 .header-button {
@@ -127,7 +131,7 @@
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 150px 200px;
+    padding: 120px 250px;
     background-color: #E5E7EB;
 }
 
@@ -147,5 +151,38 @@
     text-align: right;
     font-weight: bold;
     font-size: 20px;
+    filter: contrast(80%);
+}
+
+.action-background {
+    padding: 120px 150px;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 48px 100px;
+}
+
+.action-call {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.call, .call-sub {
+    color: #F9FAF8;
+}
+
+.call {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-sub {
     filter: contrast(80%);
 }
